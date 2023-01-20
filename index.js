@@ -1,4 +1,4 @@
-function sortMarksAscending(m1, m2) {
+function sortMarksdecending(m1, m2) {
   return m1.marks - m2.marks;
 }
 let students = [];
@@ -8,7 +8,6 @@ let students = [];
   total: 200,
   subject: 'biology',
   marks: 87,
-
   Date: '24 - 02 - 1999',
 }),
   (students[1] = {
@@ -18,4 +17,4 @@ let students = [];
     marks: 84,
     Date: '25 - 03 - 2000',
   }),
-  console.log(students.sort(sortMarksAscending));
+  console.log(students.sort(sortMarksdecending));
